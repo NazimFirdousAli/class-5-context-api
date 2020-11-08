@@ -9,7 +9,7 @@ const Child = () => {
             <h2>Hello world by Child js</h2>
     <h5>Context value = {counterValue}</h5>
     <br /><br />
-    <button onClick = { () => {counterValue[1](++counterValue[0])}}>Increment Context value</button>
+    <button onClick = { () => {counterValue[1](++counterValue[0])}}>Increment value in Context</button>
         </div>
     )
 
